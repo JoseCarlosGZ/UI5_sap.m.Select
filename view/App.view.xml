@@ -1,0 +1,61 @@
+<mvc:View
+	controllerName="josecarlos.sapui5.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+>
+	<App id="app">
+		<Page
+			id="page"
+			title="{i18n>title}"
+		>
+			<content>
+				<VBox
+                    height="100vh"
+					justifyContent="Center"
+				>
+					<Select
+					id="miSelect"
+						forceSelection="true"
+						selectedKeyExplicacion="la propiedad selectedKey ha de tener un value que sea uno de los keys de uno de los registros/items del modelo "
+						selectedKey="{
+							path: 'alumnos>/AlumnoSeleccionado'
+						}"
+						items="{
+							path: 'alumnos>/EntityAlumnos',
+							sorter: {
+								path: 'nombre'
+							}
+						}"
+						class="sapUiMediumMargin"
+						change=".onChange"
+					>
+						<core:Item
+							key="{alumnos>DNI}"
+							text="{alumnos>nombre}"
+						/>
+					</Select>
+					<Input
+						id="idImputMuestraKey"
+						placeholder="Selecciona un alumno y aquí se mostrará el 'key' de ese registro/item"
+						width="500px"
+						class="sapUiMediumMarginBegin sapUiMediumMarginBottom"
+					/>
+					<Input
+						id="idImputMuestraText"
+						placeholder="Selecciona un alumno y aquí se mostrará el 'text' de ese registro/item"
+						width="500px"
+						class="sapUiMediumMarginBegin sapUiMediumMarginBottom"
+					/>
+					<Input
+						id="idImputMuestraEdad"
+						placeholder="Selecciona un alumno y aquí se mostrará la 'edad' de ese registro/item"
+						width="500px"
+						class="sapUiMediumMarginBegin"
+					/>
+				</VBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>

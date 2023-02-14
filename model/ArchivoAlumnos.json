@@ -1,0 +1,97 @@
+
+     { 
+
+     "AlumnoSeleccionado": "34567890C",
+     "EntityAlumnos": [
+          {
+            "DNI": "",
+            "nombre": "",
+            "apellidos": "",
+            "edad": null 
+          },
+          {
+            "DNI": "12345678A",
+            "nombre": "Juan",
+            "apellidos": "Pérez Rodríguez",
+            "edad": 30
+          },
+          {
+            "DNI": "23456789B",
+            "nombre": "María",
+            "apellidos": "García López",
+            "edad": 25
+          },
+          {
+            "DNI": "34567890C",
+            "nombre": "Pedro",
+            "apellidos": "Sánchez Martínez",
+            "edad": 28
+          },
+          {
+            "DNI": "45678901D",
+            "nombre": "Isabel",
+            "apellidos": "González Díaz",
+            "edad": 32
+          },
+          {
+            "DNI": "56789012E",
+            "nombre": "Luis",
+            "apellidos": "Hernández Ortiz",
+            "edad": 27
+          },
+          {
+            "DNI": "67890123F",
+            "nombre": "Ana",
+            "apellidos": "Ramírez Romero",
+            "edad": 29
+          },
+          {
+            "DNI": "78901234G",
+            "nombre": "José",
+            "apellidos": "Gómez Fernández",
+            "edad": 35
+          },
+          {
+            "DNI": "89012345H",
+            "nombre": "Laura",
+            "apellidos": "Méndez Cruz",
+            "edad": 31
+          },
+          {
+            "DNI": "90123456I",
+            "nombre": "Rafael",
+            "apellidos": "Castro Pérez",
+            "edad": 33
+          },
+          {
+            "DNI": "01234567J",
+            "nombre": "Sara",
+            "apellidos": "Suárez Rodríguez",
+            "edad": 26
+          },
+          {
+            "DNI": "12345678K",
+            "nombre": "Carlos",
+            "apellidos": "Díaz González",
+            "edad": 34
+          },
+          {
+            "DNI": "23456789L",
+            "nombre": "Marta",
+            "apellidos": "Santos Ortiz",
+            "edad": 43
+          },
+          {
+            "DNI": "34567890M",
+            "nombre": "Daniel",
+            "apellidos": "López Hernández",
+            "edad": 58
+          },
+          {
+            "DNI": "45678901N",
+            "nombre": "Rosa",
+            "apellidos": "Jiménez García",
+            "edad": 31
+          }
+      ]
+    }
